@@ -10,19 +10,29 @@
 </head>
 <body>
     <header>
+	
+			<p>Литюк Алексей Александрович</p>
+			<p>группа 201-322</p>
+			<p>Лабораторная работа №2</p>
     </header>
     <aside>
         <ul>
-            <li>Многоколоночная форма регистрации</li>
-            <li>Галерея изображений</li>
+			<li><a href="https://github.com/AlekseyLit/laba2-2" class="git">Ссылка на Github</a></li>
+            <li><a href="#id1">Многоколоночная форма регистрации</a></li>
+            <li><a href="#id2">Галерея изображений</a></li>
+			<li><a href="#id3">Порядок элементов в явной и неявной сетке(grid-auto-flow:row)</a></li>
+			<li><a href="#id4">Порядок элементов в явной и неявной сетке(grid-auto-flow:column)</a></li>
+			<li><a href="#id5">Изменение размеров и порядка элементов в явной и неявной сетке</a></li>
+			<li><a href="#id6">Выравнивание  элементов в явной и неявной сетке</a></li>
+			<li><a href="#id7">Шаблон RAM</a></li>
         </ul>
     </aside>
     <main>
+		<h3 id="id1">Многоколоночная форма регистрации</h3>
         <div class="container-form">
             <div></div>
             <form>
             <div class="form">
-                <h3>Многоколоночная форма регистрации</h3>
                     <label for="f1">Фамилия </label>
                     <input id="f1" type="text" name=" ">
                     <label for="f2">Имя </label>
@@ -38,23 +48,93 @@
             </form>
             <div></div>
         </div>
+        <h3 id="id2">Галерея изображений</h3>
         <div class="gallery-container">
-            <img src="media/foto1.jpg" alt="">
-            <img src="media/foto2.jpg" alt="">
-            <img src="media/foto3.jpg" alt="">
-            <img src="media/foto4.jpg" alt="">
-            <img src="media/foto5.jpg" alt="">
-            <img src="media/foto6.jpg" alt="">
-            <img src="media/foto7.jpg" alt="">
-           
+            <div><img src="media/foto1.jpg" alt=""></div>
+            <div><img src="media/foto4.jpg" alt=""></div>
+            <div><img src="media/foto3.jpg" alt=""></div>
+            <div><img src="media/foto5.jpg" alt=""></div>
+            <div><img src="media/foto7.jpg" alt=""></div>
+            <div><img src="media/foto6.jpg" alt=""></div>
+            <div><img src="media/foto4.jpg" alt=""></div>
+			<div><img src="media/foto5.jpg" alt=""></div>
         </div>
-       
+        <h3 id="id3">Порядок элементов в явной и неявной сетке(grid-auto-flow:row)</h3>
+		 <div class="container-flow-row">
+			<div>item1</div>
+			<div>item2</div>
+			<div>item3</div>
+			<div>item4</div>
+			<div>item5</div>
+			<div>item6</div>
+			<div>item7</div>
+			<div>item8</div>
+			<div>item9</div>
+			<div>item10</div>
+			<div>item11</div>
+			<div>item12</div>
+		</div>
+		 <h3 id="id4">Порядок элементов в явной и неявной сетке(grid-auto-flow:column)</h3>
+		 <div class="container-flow-column">
+			<div>item1</div>
+			<div>item2</div>
+			<div>item3</div>
+			<div>item4</div>
+			<div>item5</div>
+			<div>item6</div>
+			<div>item7</div>
+			<div>item8</div>
+			<div>item9</div>
+			<div>item10</div>
+			<div>item11</div>
+			<div>item12</div>
+		</div>
+		 <h3 id="id5">Изменение размеров и порядка элементов в явной и неявной сетке</h3>
+		  <h4>(grid-column, grid-row)</h4>
+		 <div class="container-order">
+			<div class="item1">item1</div>
+			<div class="item2">item2</div>
+			<div class="item3">item3</div>
+			<div class="item4">item4</div>
+			<div class="item5">item5</div>
+			<div class="item6">item6</div>
+			<div class="item7">item7</div>
+			<div class="item8">item8</div>
+			<div class="item9">item9</div>
+		</div>
+		<h3 id="id6">Выравнивание  элементов в явной и неявной сетке </h3>
+		<h4>Свойства {justify-items, align-items, place-items} </h4>
+		<h4>Свойства {justify-self, align-self, place-self} </h4>
+		 <div class="container-align">
+			<div class="item1">item1</div>
+			<div class="item2">item2</div>
+			<div class="item3">item3</div>
+			<div class="item4">item4</div>
+			<div class="item5">item5</div>
+			<div class="item6">item6</div>
+			<div class="item7">item7</div>
+			<div class="item8">item8</div>
+			<div class="item9">item9</div>
+			<div class="item10">item10</div>
+		</div>
+		<h3 id="id7">Шаблон RAM</h3>
+		<h4> {repeat( auto-fill , minmax())} </h4>
+		<div class="container-RAM-fill">
+		   <div>item1</div>
+		   <div>item2</div>
+		   <div>item3</div>
+	   </div>
+	   <h4> {repeat( auto-fit, minmax())} </h4>
+		<div class="container-RAM-fit">
+		   <div>item1</div>
+		   <div>item2</div>
+		   <div>item3</div>
+	   </div>
+				
+		
     </main>
     <footer>
-        <ul>
-            <li>Многоколоночная форма регистрации</li>
-            <li>Многоколоночная форма регистрации</li>
-        </ul>
+		<p>Московский Политех, 2021</p>
     </footer>
 </body>
 </html>    
